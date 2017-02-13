@@ -339,13 +339,15 @@ bottom: 30px;
 }
 .nd-region {
   background: #000;
+  padding-top: 0px;
 }
 p, h1, h2, h3 {
   color: white;
 }
-#block-block-22 .title-box{
+#block-block-22 .title-box, #block-views-video-block-block .title-box, #block-views-video-block-events-block .title-box{
   display: none;
 }
+
 .column_restaurant{
   float: none;
     margin: 0 auto;
@@ -425,13 +427,16 @@ margin-bottom: 10px;
 
 .video_container .video-js{
       position: relative;
-    padding-bottom: 40%;
+    padding-bottom: 50%;
     height: 0!important;
     width: inherit!important;
     overflow: hidden;
 }
+#progressive_cms-page_title {
+  display: none;
+}
 .video_container .video-js .vjs-tech{
- width: inherit;
+ /*width: inherit;*/
  height: initial;
 }
 .entry-title {
@@ -484,7 +489,7 @@ p, ul, .breadcrumb, a, .work .description, .field-name-field-slider-body {
 }
 .header .primary{
 float: none;
-width: 68%;
+width: 100%;
 margin: 0 auto;
 }
 .logo{
@@ -532,6 +537,12 @@ footer aside li a:hover {
 } 
 footer aside .title-box {
   text-align: center;
+}
+.navbar a {
+  font-size: 24px;
+}
+.firstcharacter {
+  font-size: 40px;
 }
 h3{
   font-size: 23px!important;

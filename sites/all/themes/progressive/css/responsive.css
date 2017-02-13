@@ -389,6 +389,7 @@
     margin: 0;
     padding: 7px 9px 7px 59px;
     text-decoration: none;
+    color:#dd0000;
   }
   .header .primary .navbar .nav > li > a:hover,
   .header .primary .navbar .nav > li:hover > a {
