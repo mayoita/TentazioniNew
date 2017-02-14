@@ -96,6 +96,12 @@
  .view-slotevent {
   position: relative;
  }
+ .MDTitle {
+  font-size: 35px;
+ }
+ .MDSubTitle {
+  font-size: 20px;
+ }
  .views-field-field-dateslotevent {
   position: absolute;
   top:80px;
@@ -543,6 +549,9 @@ footer aside .title-box {
 }
 .firstcharacter {
   font-size: 40px;
+}
+.firstcharacterSub {
+font-size: 25px;
 }
 h3{
   font-size: 23px!important;
